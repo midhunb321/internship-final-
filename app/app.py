@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load('/workspaces/internship-final-/new folder/model (1).pkl')
+model = joblib.load('/workspaces/internship-final-/app/model (1).pkl')
 
 # Initialize Flask app
 app = Flask(__name__)
